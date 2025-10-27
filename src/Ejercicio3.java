@@ -14,7 +14,7 @@ public class Ejercicio3 {
             if(Character.isAlphabetic(caracter)){
                 System.out.println("Es una letra");
             } else{
-                if (Character.isDigit(caracter)){
+                if (Character.isDigit(caracter )){
                     System.out.println("Es un caracter numerico");
                 } else {
                     System.out.println("Es otro tipo de caracter");

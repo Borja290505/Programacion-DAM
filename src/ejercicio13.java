@@ -11,7 +11,7 @@ public class ejercicio13 {
 
         int cifras = 0;
         int temp = numero;
-        while(temp > 0){
+        while(temp > 0) {
             temp = temp/10;
             cifras++;
         }
