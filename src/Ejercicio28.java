@@ -4,7 +4,7 @@ public class Ejercicio28 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Introduce la altura del triángulo:  ");
+        System.out.print("Introduce la altura del triángulo: ");
         int altura = scanner.nextInt();
 
         for (int i = altura; i >= 1; i--) {
