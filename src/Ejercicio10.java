@@ -4,7 +4,7 @@ public class Ejercicio10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Introduce el primer numero");
+        System.out.println("Introduce el primer numero" );
         int numero1 = scanner.nextInt();
 
         System.out.println("Introduce el primer numero");

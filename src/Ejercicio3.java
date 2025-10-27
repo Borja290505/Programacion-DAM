@@ -9,7 +9,7 @@ public class Ejercicio3 {
         if (entrada.length() != 1){
             System.out.println("Introduce un solo caracter");
         }else{
-            char caracter = entrada.charAt(0);
+            char caracter = entrada.charAt(0 );
 
             if(Character.isAlphabetic(caracter)){
                 System.out.println("Es una letra");
