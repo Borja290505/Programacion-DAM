@@ -8,7 +8,7 @@ public class Ejercicio31 {
         int maximo = Integer.MIN_VALUE;
         int minimo = Integer.MAX_VALUE;
 
-        System.out.println("Números generados:");
+        System.out.println("Números generados: ");
 
         for (int i = 0; i < numeros.length; i++) {
             numeros[i] = random.nextInt(100) + 1; // entre 1 y 100

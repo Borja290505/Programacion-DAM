@@ -4,8 +4,7 @@ public class Ejercicio32 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce un numero: ");
         int numero = scanner.nextInt();
-        int[] divisores = new int[numero];
-        System.out.println("Los divisores del numero " + numero + " son:");
+        System.out.println("Los divisores del numero " + numero + " son: ");
         for(int i = 1; i <= numero; i++){
             if(numero % i == 0){
                 System.out.print(i + " ");
