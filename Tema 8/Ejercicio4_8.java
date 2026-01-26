@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -11,11 +12,11 @@ public class Ejercicio4_8 {
         Pattern pattern = Pattern.compile(regexCaracterEspecial);
         Matcher matcher = pattern.matcher(texto);
 
-
         boolean encontrado = false;
         while (matcher.find()) {
             if (!encontrado) {
                 System.out.println("Las palabras con un caracter especial son:");
+
                 encontrado = true;
             }
             System.out.println("- " + matcher.group());

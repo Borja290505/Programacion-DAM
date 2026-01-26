@@ -12,11 +12,12 @@ public class Ejercicio4_4 {
         Pattern pattern = Pattern.compile("^((25[0-5]|2[0-4]\\d|[01]\\d\\d)\\.){3}" + "(25[0-5]|2[0-4]\\d|[01]\\d\\d)$");
         Matcher buscador = pattern.matcher(ip);
 
-        if (buscador.matches()               ){
+        if (buscador.matches()){
             System.out.println("coincidencia");
             System.out.println(buscador.group());
         }else{
             System.out.println("No coincidencia");
         }
+
     }
 }
