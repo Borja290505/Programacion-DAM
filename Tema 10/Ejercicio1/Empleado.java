@@ -1,10 +1,10 @@
 package Ejercicio1;
 
-public class EmpleadoComun {
-    String nombre;
-    Double salarioBase;
+public class Empleado {
+    protected String nombre;
+    protected Double salarioBase;
 
-    public EmpleadoComun(String nombre, Double salarioBase) {
+    public Empleado(String nombre, Double salarioBase) {
         this.nombre = nombre;
         this.salarioBase = salarioBase;
     }

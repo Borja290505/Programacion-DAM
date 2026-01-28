@@ -6,12 +6,10 @@ public class DemoEjercicio2 {
         Motocicleta m1 = new Motocicleta("Suzuki",300,2,"YRS11",320.5);
         Camion c1 = new Camion("Volvo",400,12,"Carga maxima",13000.5);
 
-        a1.describirVehiculo();
-
-        System.out.println();
-        m1.describirVehiculo();
-
-        System.out.println();
-        c1.describirVehiculo();
+        Vehiculos[] parking = {a1, m1, c1};
+        for(Vehiculos v : parking){
+            System.out.println();
+            v.describirVehiculo();
+        }
     }
 }

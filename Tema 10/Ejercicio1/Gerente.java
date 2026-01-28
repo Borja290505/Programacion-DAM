@@ -1,6 +1,6 @@
 package Ejercicio1;
 
-public class Gerente extends EmpleadoComun{
+public class Gerente extends Empleado{
     private Double bono;
 
     public Gerente(String nombre, Double salarioBase, Double bono) {
@@ -21,5 +21,6 @@ public class Gerente extends EmpleadoComun{
         System.out.println("Nombre: " + nombre);
         System.out.println("Salario Base " + salarioBase);
         System.out.println("Bono: " + bono);
+        System.out.println("Salario total: " + (bono+salarioBase));
     }
 }

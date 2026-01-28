@@ -2,7 +2,7 @@ package Ejercicio1;
 
 public class DemoEjercicio1 {
     public static void main(String[] args) {
-        EmpleadoComun empleado1 = new EmpleadoComun("Borja", 1500.0);
+        Empleado empleado1 = new Empleado("Borja", 1500.0);
         Gerente gerente1 = new Gerente("Santiago", 1500.0,500.0);
 
         System.out.println("MOSTRANDO INFO DE LOS EMPLEADOS");
