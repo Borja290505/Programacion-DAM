@@ -22,7 +22,7 @@ public class Ejercicio_5 {
 
         System.out.println("Lista completa: " + palabras);
 
-        System.out.print("Dime la palabra que quieres eliminar");
+        System.out.print("Dime la palabra                       que quieres eliminar");
         String palabraEliminar = sc.nextLine();
         if(palabras.remove(palabraEliminar)){
             System.out.println("La palabra ha sido eliminada");
